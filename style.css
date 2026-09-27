@@ -1,0 +1,56 @@
+* {
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f6f8;
+    color:#222;
+}
+header{
+    text-align:center;
+    padding:25px;
+    background: #333;
+    color:white;
+}
+main{
+    width:90%;
+    max-width:900px;
+    margin:30px auto;
+}
+section{
+    background: white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+form{
+    display:grid;
+    gap:10px;
+}
+input,
+select,
+button{
+    padding:10px;
+    font-size:16px;
+}
+button{
+    cursor:pointer;
+}
+button:hover{
+    opacity:0.8;
+}
+#contactList{
+    display:grid;
+    gap:15px;
+}
+@media (max-width:600px){
+    main{
+        width:95%;
+    }
+    input,
+    select,
+    button{
+        width:100%;
+    }
+}
