@@ -36,9 +36,12 @@ button{
 }
 button{
     cursor:pointer;
+    border-radius:5px;
+    border:1px solid #ccc;
 }
 button:hover{
     opacity:0.8;
+    background:#e0e0e0;
 }
 #contactList{
     display:grid;
