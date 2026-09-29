@@ -14,7 +14,7 @@ form.addEventListener("submit", e =>{
         return alert("Please fill in all fields");
     if(!/^\d{10}$/.test(phone))
         return alert("Please enter a valid 10-digit phone number.");
-    if(!email.includes("@"))
+    if(!email.includes("@gmail.com"))
         return alert("Enter a valid Email.");
     let contact = {name, phone, email, category};
     editIndex<0 ? contacts.push(contact) : contacts[editIndex] = contact;
