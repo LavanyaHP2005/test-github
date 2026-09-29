@@ -65,3 +65,4 @@ function remove(index){
 }
 search.addEventListener("input", show);
 filter.addEventListener("change", show);
+show();
